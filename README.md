@@ -30,14 +30,6 @@ Or install all at once:
 pip install torch requests beautifulsoup4 tokenizers tqdm
 ```
 
-### Detailed Package Requirements
-
-- **torch**: Core PyTorch library for neural networks
-- **requests**: For HTTP requests (dataset downloading)
-- **beautifulsoup4**: HTML parsing (imported but not actively used)
-- **tokenizers**: Hugging Face tokenizers library for BPE tokenization
-- **tqdm**: Progress bars for training loops
-
 ## Quick Start
 
 ### 1. Install Dependencies
@@ -49,7 +41,7 @@ pip install torch requests beautifulsoup4 tokenizers tqdm
 ### 2. Run the Script
 
 ```bash
-python paste.py
+python main.py
 ```
 
 The script will automatically:
