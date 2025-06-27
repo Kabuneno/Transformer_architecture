@@ -15,7 +15,7 @@ This project implements a simplified version of GPT (Generative Pre-trained Tran
 
 ## Dependencies
 
-Since there's no `requirements.txt` file, you'll need to install the following packages:
+You'll need to install the following packages:
 
 ```bash
 pip install torch torchvision torchaudio
