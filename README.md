@@ -92,14 +92,6 @@ loss_function = CrossEntropyLoss
 
 ## Data Processing
 
-### Dataset: Cornell Movie Dialogs Corpus
-- **Source**: http://www.cs.cornell.edu/~cristian/data/cornell_movie_dialogs_corpus.zip
-- **Size**: ~100,000 characters (truncated for efficiency)
-- **Preprocessing**: 
-  - Lowercasing
-  - Punctuation removal
-  - Special character cleaning
-
 ### Tokenization
 - **Method**: Byte Pair Encoding (BPE)
 - **Vocabulary Size**: 5,000 tokens
@@ -129,7 +121,7 @@ print(generated_text)
 
 ## Customization Options
 
-### Modify Model Architecture
+### Model Architecture
 
 ```python
 model = multiheadgpt(
@@ -211,40 +203,3 @@ This implementation demonstrates:
 **Import Errors**: Ensure all dependencies are installed correctly
 
 **Slow Training**: Consider using GPU acceleration if available
-
-## Educational Value
-
-Perfect for:
-- Understanding transformer architecture
-- Learning PyTorch implementation details
-- Experimenting with language modeling
-- Exploring text generation techniques
-- Building intuition for attention mechanisms
-
-## Potential Improvements
-
-- Add validation dataset and early stopping
-- Implement more sophisticated generation techniques
-- Add more transformer layers
-- Use larger vocabulary and datasets
-- Implement gradient clipping and learning rate scheduling
-- Add model checkpointing and resuming
-
-## Technical Notes
-
-- Uses causal (autoregressive) attention masking
-- Implements standard transformer components
-- BPE tokenization for efficient vocabulary
-- Temperature and top-k sampling for generation
-- Residual connections with pre-norm architecture
-
-## Contributing
-
-Feel free to experiment with:
-- Different model architectures
-- Alternative datasets
-- Advanced generation techniques
-- Training optimizations
-- Evaluation metrics
-
-This is an educational implementation perfect for learning how transformers work under the hood!
