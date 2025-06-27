@@ -1,4 +1,4 @@
-# Transformer_architecture# Custom GPT Implementation from Scratch
+# Custom GPT Implementation from Scratch
 
 A minimal implementation of a GPT-like transformer model built from scratch using PyTorch, trained on the Cornell Movie Dialogs Corpus.
 
